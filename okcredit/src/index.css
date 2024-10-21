@@ -1,0 +1,90 @@
+.Navbar{
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(45, 212, 212) ;
+}
+.totalamoumnt{
+  display: flex;
+  gap: 20px;
+}
+.totalamoumnt h1{
+color: white;
+}
+.totalamoumnt span:nth-of-type(1){
+  font-size: 20px;
+  color: green;
+}
+.totalamoumnt span:nth-of-type(2){
+font-size: 20px;
+  color: red;
+}
+.form{
+  display: flex;
+  gap: 15px;
+}
+.form button{
+  background-color: rgb(45, 212, 212);
+  color: white;
+  width: 80px;
+  height: 5vh;
+  /* border: none; */
+}
+.add{
+  display: flex;
+  gap: 7px;
+}
+.search{
+  display: flex;
+  gap: 7px;
+}
+.coustomer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.inputBtnsTrans{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+.inputBtnsTrans input{
+  width: 50%;
+  height: 5vh;
+  outline: none;
+  color: teal;
+  margin-bottom: 20px;
+}
+.userBtns{
+  display: flex;
+  justify-content: space-evenly;
+}
+.userBtns button{
+  height: 5vh;
+  width: 10vw;
+}
+.send{
+  background-color: red;
+}
+.receive{
+  background-color: green;
+}
+.users{
+  display: flex;
+  background-color: rgb(38, 79, 79);
+  padding: 10px 20px;
+  height: 10vh;
+  width: 70%;
+margin: 10px auto;
+justify-content: space-between;
+align-items: center;
+}
+ a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+
+}
+
